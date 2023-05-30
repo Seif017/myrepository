@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 60%;
+    height:65% ;
+    margin-top: 40px;
+   
+}
+.container .sedans{
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:hsl(31, 77%, 52%);
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sedans img{
+    width: 60px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    
+}
+.sedans h1{
+    position: absolute;
+    top: 110px;
+    left:40px ;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px; 
+}
+
+.sedans p{
+    width: 70%;
+    position: absolute;
+    left: 40px;
+    top: 130px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 40px;   
+}
+
+.sedans button{
+    position: absolute;
+    top: 80%;
+    left: 40px;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(31, 77%, 52%) ;
+    background:  hsl(0, 0%, 95%);
+}
+
+.container .suvs{
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 33%;
+    background: hsl(184, 100%, 22%);
+}
+
+.suvs img{
+    width:60px ;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+.suvs h1{
+    position: absolute;
+    top: 110px;
+    left:40px ;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px; 
+}
+
+.suvs p{
+    width: 70%;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 40px;   
+}
+
+
+.suvs button{
+    position: absolute;
+    top: 80%;
+    left: 40px;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(184, 100%, 22%) ;
+    background:  hsl(0, 0%, 95%);
+}
+.container .luxury{
+    width: 34%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury img{
+    width:60px ;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+.luxury h1{
+    position: absolute;
+    top: 110px;
+    left:40px ;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px; 
+}
+
+.luxury p{
+    width: 70%;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 40px;   
+}
+
+
+.luxury button{
+    position: absolute;
+    top: 80%;
+    left: 40px;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(179, 100%, 13%) ;
+    background:  hsl(0, 0%, 95%);
+}
+
+button:hover{
+    cursor: pointer;
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width:600px){
+
+ .container .sedans{
+    position:relative ;
+    top: -90px;
+    left: -60px;
+    width: 150%;
+    height: 120%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+        
+ }
+ .container .suvs{
+    position: relative;
+    top: -90px;
+    left: -60px;
+    width: 150%;
+    height: 120%;
+
+ }
+ .container .luxury{
+    position: relative;
+    top: -90px;
+    left: -60px;
+    width: 150%;
+    height: 120%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  
+ }
+
+
+}
