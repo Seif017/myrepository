@@ -1,0 +1,562 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    }
+
+
+.container{
+    width: 100%;
+}
+
+
+.container .huddle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  hsl(193, 100%, 96%); 
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+
+.huddle img{
+    width: 45%;
+    position: absolute;
+    left: 50%;   
+    top: 25%;
+}
+
+.huddle .logo{
+    position: absolute;
+    top: 30px;
+    margin-left: 50px;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.huddle i{
+    color: hsl(322, 100%, 66%);
+    font-size: 30px;
+    
+}
+
+.huddle h1{
+    position: absolute;
+    top: 150px;
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.huddle p{
+    position: absolute;
+    top: 300px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.huddle .btn1{
+    position: absolute;
+    top: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 17%;
+    height: 10%;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.huddle .btn1:hover{
+    opacity: 0.5;
+}
+
+.huddle .btn2{
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    width: 14%;
+    height: 8%;
+    border-radius: 30px;
+    border: none;
+    background: white;
+    font-family:'Open Sans', sans-serif;
+    font-weight:700 ;
+    box-shadow: 0 0 15px hsl(208, 11%, 55%) ;
+    cursor: pointer;
+}
+
+.huddle .btn2:hover{
+    color: hsl(208, 11%, 55%);
+}
+
+.content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 240vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .growtogether{
+    width: 80%;
+    height: 23%;
+    border: 2px solid ;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px grey;
+   
+}
+
+.growtogether h1{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.growtogether p{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(208, 11%, 55%);
+}
+
+.growtogether img{
+    position: absolute;
+    width: 30%;
+    left: 67%;
+    top: 10%;
+}
+
+.content .flowing{
+    width: 80%;
+    height: 23%;
+    border: 2px solid ;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px grey;
+
+}
+.flowing h1{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.flowing p{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(208, 11%, 55%);
+}
+
+.flowing img{
+    position: absolute;
+    width: 30%;
+    left: 10%;
+    top: 20%;
+}
+
+
+
+.content .users{
+    width: 80%;
+    height: 23%;
+    border: 2px solid ;
+    position: relative;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px grey;
+}
+
+.users h1{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.users p{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(208, 11%, 55%);
+}
+
+.users img{
+    position: absolute;
+    width: 30%;
+    left: 67%;
+    top: 15%;
+}
+
+
+.content .ready{
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    border: solid 2px;
+    top: 96%;
+    z-index: 1;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 4px grey ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+.ready h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+ 
+}
+
+.ready button{
+ width: 50%;
+ height: 20%;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 400;
+ color: white;
+ background: hsl(322, 100%, 66%);
+ border-radius: 20px;
+ border: none;
+ cursor: pointer;
+
+}
+
+.ready button:hover{
+    opacity: 0.5;
+}
+
+
+.lastsection{
+    position: relative;
+    top: 353vh;
+    left: -10px;
+    width: 110%;
+    height: 80vh;
+    border: 2px solid ;
+    background: hsl(192, 100%, 9%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.lastsection .info{
+    width: 25%;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    padding: 20px;
+}
+
+.lastsection .info h1{
+    font-size: 40px;
+    
+}
+.info .location p{
+    position: relative;
+    top: -40px;
+    left: 40px;
+}
+
+.info .call{
+   position: relative;
+   top: -30px;
+}
+
+.info .email{
+    position: relative;
+    top: -30px;
+}
+
+ion-icon{
+    margin-right: 20px;
+}
+
+.lastsection .more{
+    position: absolute;
+    top: 47%;
+    left: 38%;
+    height:40%;
+    width: 30%;
+}
+
+.lastsection .more ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.lastsection .more ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.lastsection .more ul .more2{
+    position: relative;
+    left: 55%;
+    top: -30px;
+
+}
+
+.lastsection .more ul i:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lastsection .social{
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}
+
+.lastsection .social ion-icon{
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 7px;
+    transition: .5s ease;
+}
+
+.lastsection .social ion-icon:hover{
+    cursor: pointer;
+    color: hsl(322, 100%, 66%);
+    transform: scale(1.3);
+}
+
+
+.lastsection .copy{
+    position: absolute;
+    left: 68%;
+    bottom: 10%;
+}
+
+@media screen and (max-width:1440px) and (min-width: 375px){
+    .container .huddle{
+        background-image: url(bg-hero-desktop.svg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .huddle .logo{
+        margin-left: 20px;
+    }
+    .huddle .btn2{
+        width: 35%;
+        height: 6%;
+    }
+    .huddle h1{
+        font-size: 35px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        justify-content:center ;
+        
+    }
+    .huddle p{
+        text-align: center;
+    
+    }
+    .huddle .btn1{
+        width: 70%;
+        height: 6%;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        
+       
+    }
+    .huddle img{
+        width: 80%;
+        position: absolute;
+        top: 63%;
+        left: 15%;
+    }
+
+    .container .huddle{
+        height: 140%;
+    }
+    .content .growtogether{
+        margin-top: 310px;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+    
+       
+    }
+    .growtogether img{
+        width: 55%;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+    .growtogether h1{
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+        
+    }
+    .growtogether p{
+        font-size: 16px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+    }
+    .content .flowing{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .flowing img{
+        width: 55%;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+    .flowing h1{
+        position: absolute;
+        top: 45%;
+        left: 5%;
+       
+    }
+    .flowing p{
+        font-size: 16px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+        position: absolute;
+        top: 65%;
+        left: 15%;
+      
+    }
+    .content .users{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .users img{
+        width: 55%;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+    .users h1{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+       
+    }
+    .users p{
+        font-size: 14px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+        position: absolute;
+        top: 65%;
+        left: 15%;
+      
+    }
+
+    .content .ready{
+        width: 80%;
+        height: 12%;
+        margin-top: 100px;
+    }
+    .ready h1{
+        font-size: 20px;
+        }
+
+    .lastsection{
+        height: 150vh;
+    }
+    .lastsection .info{
+        position: relative;
+        top: 120px;
+        left:0;
+        width: 80%;
+        
+    }
+    .lastsection .more{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 80%;
+    
+    }
+    .lastsection .more2{
+        margin-left: -55%;
+        margin-top: 10%;
+        margin-bottom: -20px;
+
+    }
+    .lastsection .social{
+        width: 80%;
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+    .lastsection .copy{
+        width: 80%;
+        position: absolute;
+        top: 95%;
+        left: 20%;
+    }
+   
+
+
+}
