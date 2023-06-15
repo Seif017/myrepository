@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: #fff;
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%,-55%);
+    
+
+}
+
+.container{
+    background:  hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 60%;
+    padding: 30px;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+ul button{
+    width: 50px;
+    height: 7.5vh;
+    border-radius: 100%;
+    border: none;
+    margin-top: 35px;
+    background: hsl(213, 20%, 22%);
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    transition: 0.5s ease;
+
+}
+ul button:hover{
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+ul button:focus{
+    background:hsl(217, 12%, 63%) ;
+}
+
+
+.container .submit{
+    width: 95%;
+    height: 35px;
+    margin-top: 35px;
+    margin-left: auto;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background: hsl(25, 97%, 53%);
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-family: 'Overpass', sans-serif;
+    
+}
+.container .submit:hover{
+    color:  hsl(25, 97%, 53%);
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.container img{
+    width: 40px;
+    border-radius: 100%;
+    background: hsl(213, 20%, 22%);
+    padding: 10px;
+}
+.container h1{
+    margin-top: 30px;
+
+}
+
+.container p{
+    margin-top: 30px;
+    width: 100%;
+   
+}
+
+.hidden{
+    display: none !important;
+}
+
+
+.thankyou {
+    background:  hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thankyou img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.thankyou .rating{
+    color:  hsl(25, 97%, 53%);
+    background: hsl(213, 20%, 22%);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+}
+
+.thankyou h1{
+    margin-top: 20px;
+}
+.thankyou p{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:800px){
+     .thankyou{
+        width: 150%;
+        margin-left: -50%;
+        
+    }
+
+    .container{
+        width: 140%;
+        margin-left: -100px;
+    }
+}
